@@ -21,10 +21,16 @@
         "issues": "https://github.com/owner888/phpspider/issues",
         "forum": "http://wenda.phpspider.org/",
         "wiki": "http://doc.phpspider.org/",
-        "source": "https://github.com/owner888/phpspider"
+        "source": "https://github.com/owner888/phpspider",
+        "jaeger/querylist": "^3.1",
+        "jaeger/querylist-ext-request":"^1.0",
+        "jaeger/querylist-ext-multi":"^1.0",
+        "jaeger/querylist-ext-login":"^1.0"
     },
     "require": {
-        "php": ">=5.5.0"
+        "php": ">=5.5.0",
+        "jaeger/querylist": "dev-master",
+        "jaeger/querylist-phantomjs": "dev-master"
     },
     "suggest": {
         "ext-pcntl、ext-redis": "For better performance. "
@@ -34,5 +40,11 @@
             "phpspider\\": "./"
         }
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
 }
